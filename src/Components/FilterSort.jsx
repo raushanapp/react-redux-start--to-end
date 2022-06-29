@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useSearchParams } from "react-router-dom";
-import {useDispatch} from "react-redux"
-import { getBooks } from '../ReduxStore/firstStore/action.first';
+// import {useDispatch} from "react-redux"
+// import { getBooks } from '../ReduxStore/firstStore/action.first';
 function FilterSort() {
-    const dispatch = useDispatch()
+    // const dispatch = useDispatch()
     const [searchParams,setSearchParams] =useSearchParams()
     const initalCategoryFilter = searchParams.getAll("category");
     const initalSortBy =searchParams.getAll("sortBy");
@@ -29,22 +29,25 @@ function FilterSort() {
     }
     // console.log(sortBy)
     useEffect(()=>{
-       if(category){
-         setSearchParams({category})
+       if(category || sortBy){
+          let params ={};
+          category && (params.category=category)
+          sortBy && (params.sortBy=sortBy)
+         setSearchParams(params)
        }
 
-    },[category,dispatch,setSearchParams]);
+    },[category,setSearchParams,sortBy]);
      
-    useEffect(()=>{
-        if(sortBy){
-            let params = {
-                category:searchParams.getAll("category"),
-                sortBy
-            }
+    // useEffect(()=>{
+    //     if(sortBy){
+    //         let params = {
+    //             category:searchParams.getAll("category"),
+    //             sortBy
+    //         }
            
-            setSearchParams(params)
-        }
-    },[searchParams,dispatch,setSearchParams,sortBy])
+    //         setSearchParams(params)
+    //     }
+    // },[searchParams,dispatch,setSearchParams,sortBy])
   return (
     <div>
         <h3>Filter</h3>

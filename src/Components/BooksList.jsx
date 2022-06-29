@@ -1,7 +1,7 @@
 import React from 'react'
 import BooksCard from './BooksCard'
 import { useEffect } from 'react'
-import {useSearchParams,useLocation} from "react-router-dom"
+import {useSearchParams,useLocation,Link} from "react-router-dom"
 import{useDispatch,useSelector} from "react-redux"
 import { getBooks } from '../ReduxStore/firstStore/action.first'
 import styled from "styled-components"
@@ -23,12 +23,15 @@ function BooksList() {
         dispatch(getBooks(getBooksParams))
       }
     },[location.search]);
-    console.log(location)
+    // console.log(location)
   return (
     <>
       {books.length>0 && books.map((singleBooks)=>(
         <BooksListWrapper key={singleBooks.id} >
-         <BooksCard  bookData={singleBooks} />
+            <Link to={`/books/${singleBooks.id}`}>
+             <BooksCard  bookData={singleBooks} />
+            </Link>
+         
         </BooksListWrapper>
       ))}
     </>
