@@ -1,0 +1,185 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "author": "DAVID MITCHELL",
+      "no_of_chapters":6,
+      "cover_photos":"https://s26162.pcdn.co/wp-content/uploads/2019/11/91smIBwwTgL-682x1024.jpg",
+      "books_name" :"THE THOUSAND AUTUMNS OF JACOB",
+      "category":"Novels",
+      "release_years":"2010",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 2,
+      "author": "JENNIFER EGAN",
+      "no_of_chapters":5,
+      "cover_photos":"https://s26162.pcdn.co/wp-content/uploads/2019/11/81Y7nR4h6-L-687x1024.jpg",
+      "books_name" :"The Top Twenty",
+      "category":"Novels",
+      "release_years":"2010",
+      "chapters":[
+        {
+          "name" :"Some things",
+          "pages":28
+        },
+        {
+          "name":"Easy Way",
+          "pages":29
+        }
+      ]
+      
+    },
+    {
+      "id": 3,
+      "author": "DENIS JOHNSON",
+      "no_of_chapters":10,
+      "cover_photos":"https://s26162.pcdn.co/wp-content/uploads/2019/11/91cR7SY43SL-647x1024.jpg",
+      "books_name" :"TRAIN DREAMS",
+      "category":"Noval",
+      "release_years":"2011",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 4,
+      "author": "ATUL GAWANDE",
+      "no_of_chapters":15,
+      "cover_photos":"https://s2982.pcdn.co/wp-content/uploads/2018/12/being-mortal-199x300.jpg.webp",
+      "books_name" :"BEING MORTAL: MEDICINE AND WHAT MATTERS IN THE END",
+      "category":"Science",
+      "release_years":"2005",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 5,
+      "author": "RACHEL CARSON",
+      "no_of_chapters":6,
+      "cover_photos":"https://s2982.pcdn.co/wp-content/uploads/2018/04/SilentSpring-2-213x300.jpg.webp",
+      "books_name" :"SILENT SPRING",
+      "category":"Science",
+      "release_years":"2009",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 6,
+      "author": " Robert C. Martin",
+      "no_of_chapters":20,
+      "cover_photos":"https://hackr.io/blog/uploads/images/clean-code-a-handbook-of-agile-software-craftsmanship-1st-edition.jpg?ezimgfmt=rs:217x278/rscb1/ng:webp/ngcb1",
+      "books_name" :"Clean Code",
+      "category":"Programming",
+      "release_years":"2015",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 7,
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "no_of_chapters":25,
+      "cover_photos":"https://hackr.io/blog/uploads/images/introduction-to-algorithms-eastern-economy-edition.jpg?ezimgfmt=rs:222x283/rscb1/ng:webp/ngcb1",
+      "books_name" :"Introduction alogrithms",
+      "category":"Programming",
+      "release_years":"2019",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 8,
+      "author": " Harold Abelson, Gerald Jay Sussman, Julie Sussman",
+      "no_of_chapters":20,
+      "cover_photos":"https://hackr.io/blog/uploads/images/structure-and-interpretation-of-computer-programs-2nd-edition-mit-electrical-engineering-and-computer-science1.jpg?ezimgfmt=rs:201x286/rscb1/ng:webp/ngcb1",
+      "books_name" :" Structure and Interpretation of Computer Programs (SICP)",
+      "category":"Programming",
+      "release_years":"2018",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    },
+    {
+      "id": 9,
+      "author": "Robert C. Martin",
+      "no_of_chapters":25,
+      "cover_photos":"https://hackr.io/blog/uploads/images/the-clean-coder.jpg?ezimgfmt=rs:197x246/rscb1/ng:webp/ngcb1",
+      "books_name" :" The Clean Coder",
+      "category":"Programming",
+      "release_years":"2017",
+      "chapters":[
+        {
+          "name" :"HTML",
+          "pages":25
+        },
+        {
+          "name":"CSS",
+          "pages":26
+        }
+      ]
+      
+    }
+  ]
+  
+}
